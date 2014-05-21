@@ -1,0 +1,39 @@
+.service_all{color:#444;padding:20px;}
+.service_all input[type='button']{width:100px;height:18px;border:1px solid #327ab5;border-radius:5px;cursor:pointer}
+.health_table { width:100%;height:294px;border:1px solid #ddd;}
+<!--健康状况-->
+.health{min-width:400px;}
+.health_info{width:40%; background:url(../../images/spmservice/health-bg.gif) repeat-x}
+.health_error{ height:153px;background:url(../../images/spmservice/health-bg.gif) repeat-x;}
+.health_error .error_info{height:153px; text-align:left}
+.health_error p{ white-space:pre-wrap;height:115px;height:100px\9;overflow:hidden;}
+.health_dec{ color:#333;width:60%;text-align:center; background:url(../../images/spmservice/tp-mid-tile-bg.gif) repeat-x}
+.health_dec table{width:100%;}
+.health_dec .bar{color:#000;width:auto; background:url(../../images/spmservice/red-bg-tile.gif);width:200px;height:20px;padding-top:5px; font-weight:bold;}
+.health_head{background:url(../../images/spmservice/bg_tableheader.gif) repeat-x;width:560px;height:21px;}
+.idown,.iup,.icannot,.ican{cursor:pointer;width:44px;height:44px;}
+.idown{ background:url(../../images/spmservice/icon_down.gif)}
+.iup{ background: url(../../images/spmservice/icon_up.gif)}
+.icannot{  background:url(../../images/spmservice/icon_critical.gif)}
+.ican{ background: url(../../images/spmservice/icon_right.gif)}
+<!--饼状图区域-->
+#pie_availability,#pie_health {width: 250px;height:246px; height: 230px\9; margin: 0 auto}
+.pie_chart{heihgt:202px;}
+.pie {width:50%;height:252px;height:250px\9;}
+.pie_table{height:305px;min-width:500px;width:100%;text-align:center; vertical-align:top; border:1px solid #ddd;}
+.pie_head{ background:url(../../images/spmservice/bg_tableheader.gif) repeat-x;width:800px;height:23px;}
+
+<!--底部表格-->
+.info_table{width:100%;border:1px solid #ddd;}
+.info_table td{ border-bottom:1px solid #ddd;}
+.info_head{width:100%; min-width:800px;height:25px; background:url(../../images/spmservice/bg_tableheader.gif) repeat-x;}
+.info_thead{ font-weight:bold;}
+.grid_info{margin-top:10px;width:100% }
+
+.green_bar{background:url(../../images/bg_available.gif) repeat-x;border:#5d5d5d 1px solid;height:12px;}
+.green_bar td{line-height:12px;height:12px;border:none}
+.green_bar .not_available{background:url(../../images/bg_available_r.gif) repeat-x}
+.green_bar .xp_available{background:url(../../images/bg_available_y.gif) repeat-x}
+.red_bar{height:12px; background:url(../../images/red-bar.png) repeat-x;}
+.yellow_bar{height:12px; background: url(../../images/bg_available_y.gif) repeat-x}
+.red_bar,.yellow_bar{float:left;}

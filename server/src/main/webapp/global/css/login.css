@@ -1,0 +1,30 @@
+html { height: 100%; }
+body { margin: 0; padding: 0; font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+ul,li,ol,p,span,img, label,input{ margin: 0; padding: 0; border: 0;}
+
+.fl { float: left; }
+.fr { float: right; }
+.fc { float: none; margin: 0 auto; }
+ul{ list-style: none;}
+.clear{ clear: both; }
+form{ float: left;}
+.login_bg{ background: url("../images/index_bg.gif") repeat-x left 100px; width: 100%;}
+.login{ background: url("../images/index_bg_right.gif") no-repeat right 100px; height: 453px; padding-right: 140px;}
+.login_side{ margin-top: 118px;  }
+.logo{ background:url(../images/logo2.gif) no-repeat right 80px;  margin-right: 108px; width: 273px; height:191px; clear:both }
+.people{background:url(../images/people.gif) no-repeat; width:225px; height:288px;  padding-left:100px}
+.side_left{ background: url("../images/login_left.gif") no-repeat; width: 16px; height: 216px;}
+.side_middle{ background: url("../images/login_middle.gif") repeat-x; width: 393px; height: 216px;}
+.side_right{ background: url("../images/login_right.gif") no-repeat; width: 16px; height: 216px;}
+.side_middle ul{ margin-top: 17px; float:right; display: inline-block; margin-right: 15px;}
+.side_middle ul li{ width: 256px; float: right;}
+.side_middle .input_bg{background:url("../images/input_bg.gif") no-repeat left top; width: 155px;  height: 18px; display: block; float: left; line-height: 18px;}
+.side_middle input{  border:0; height: 18px; line-height: 18px; width: 137px; margin-left: 9px; float: left; outline: none;}
+.side_middle .side_top strong{ color: #fff;  width: 90px; text-align: left; float: left; height: 18px; line-height: 18px; display: inline; margin-left: 11px;}
+.side_middle .side_top{ margin-top: 5px; height: 18px; display: inline;}
+.side_middle .side_check{ margin-top: 20px; display: inline; margin-bottom: 9px;}
+.side_middle .side_check input{ float: left; width: 13px; height: 13px; margin-left: 183px; display: inline;}
+.side_middle .side_check strong{ color: #fff; float: left; padding-left: 8px;}
+.side_middle .btn{ background: url("../images/button.gif") no-repeat; width: 69px; height: 31px; border: 0; color: #fff; font-weight: bold; text-align: center; line-height:27px; display: block; text-decoration: none; font-size: 16px; float: right;}
+.side_middle .tip{ font-weight: bold; width: 140px; height: 15px; background-color: #fff; line-height: 15px; border: 1px solid #eee; text-indent: 8px; display: inline; margin-right: 103px;}
+

@@ -1,0 +1,21 @@
+.red_status{width:14px;height:14px;}
+.green_status{width:14px;height:14px;}
+.yellow_status{width:14px;height:14px;}
+.red_status{ background:url(../images/timeinfo/bussinessY2.gif) no-repeat}
+.green_status{ background:url(../images/timeinfo/bussinessY.gif)}
+.yellow_status{ background:url(../images/timeinfo/bussinessY3.gif)}
+
+.stuats_mark{margin-top:20px;}
+.stuats_mark ul li{ float:left;}
+.stuats_mark ul li div{ float:left;margin-right:15px;}
+
+.ky{background: url(../images/timeinfo/green_line2.png) repeat-x;}
+.bky{background: url(../images/timeinfo/red_line2.png) repeat-x;}
+.wran{background: url(../images/timeinfo/yellow-line2.png) repeat-x;}
+.tj{background: url(../images/timeinfo/deep_red_line2.png) repeat-x;}
+.wsj{background: url(../images/timeinfo/gary_line2.png) repeat-x}
+.iky{background:#6ee341;}
+.ibky{background:#ff0000;}
+.iwran{background:yellow;}
+.itj{background:#e500e5;}
+.iwsj{background:#e3e3e3}

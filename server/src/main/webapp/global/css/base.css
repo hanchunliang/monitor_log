@@ -1,0 +1,7 @@
+*{margin:0;padding:0;}
+table{border-collapse:separate;}
+table,td,th{vertical-align:middle;}
+a img{border:none}
+ul{list-style:none;}
+html,body{font-size:12px;font-family:Microsoft Yahei,Verdana,"HelveticaNeue",Helvetica,Arial;color:#000;}
+.box_shadow{background:#444;opacity:0.1;filter:Alpha(Opacity=10);position:absolute;z-index:8;top:0;left:0;display:none;cursor:not-allowed}

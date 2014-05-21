@@ -1,0 +1,30 @@
+/*
+Sinosoft UI Message plugin styles
+*/
+.sinosoft-ui-messager { position: absolute; z-index: 1000; float: left; border: 1px solid #B9B9B9; background: white; display: none;
+border-radius:4px;}
+.sinosoft-ui-messager h4.msg-header { float: left; width: 100%; height: 30px; line-height: 30px; margin: 0; padding: 0; cursor: move; background:#EDF2F7;border-bottom: 1px solid #B9B9B9;}
+.sinosoft-ui-messager h4.msg-header span.text { float: left; height: 30px; line-height: 30px; text-indent: 24px; display: inline; font-size: 12px; }
+.sinosoft-ui-messager h4.msg-header a.closer {
+    float: right; width: 16px; height: 14px; line-height: 14px; margin: 7px 6px; display: inline;
+    border: 1px solid gray; text-align: center; text-decoration: none; color: gray;
+}
+.sinosoft-ui-messager h4.msg-header a.closer:hover { color: #333; border-color: #333; }
+.sinosoft-ui-messager h4.msg-header a.closer:active { color: #666; border-color: #666; }
+.sinosoft-ui-messager .container { float: left; margin: 10px 30px; display: inline; }
+.sinosoft-ui-messager .container .msg-icon { float: left; width: 48px; height: 48px;background:url(../images/message/info.gif) no-repeat }
+.sinosoft-ui-messager .container .msg-icon3{background-position:-96px 0}
+.sinosoft-ui-messager .container .msg-success{background-position:-48px 0}
+.sinosoft-ui-messager .container .msg-content { float: right; }
+.sinosoft-ui-messager .container .msg-content h4.msg-title { float: left; width: 100%; height: 20px; line-height: 20px; margin: 0; padding: 0;display:none}
+.sinosoft-ui-messager .container .msg-content .msg-text { float: left; width: 100%; line-height: 24px;
+padding:2px 0 2px 10px;}
+.sinosoft-ui-messager .button_wrapper { float: left; width: 90%; height: 30px; padding: 0 5% 10px; display: inline; white-space: nowrap;text-align:right}
+.sinosoft-ui-messager .button_wrapper .button_pane { height: 30px; }
+.sinosoft-ui-messager .button_wrapper .button_pane a,#seachTool a {
+     height: 24px; line-height: 24px; margin: 4px 0 4px 10px; padding: 3px 15px;
+    text-align: center; text-decoration: none; border: 1px solid #B0B0B0; color:#3A3A3A; background:url(../images/tableheading-blue-band.gif) 0 center;
+}
+.sinosoft-ui-messager .button_wrapper .button_pane a:hover {background:#fff }
+.sinosoft-ui-messager .button_wrapper .button_pane a:active { border-color: #666; color: #666; }
+.sinosoft-ui-overlay { position: absolute; z-index: 999; float: left; width: 100px; height: 100px; background: gray; opacity: 0.8; }

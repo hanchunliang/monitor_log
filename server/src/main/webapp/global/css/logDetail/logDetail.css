@@ -1,0 +1,11 @@
+.log_detail{padding:30px;}
+
+.log_detail_grid .log_detail_table{width:100%}
+.log_detail_table td a{ text-decoration:none; cursor:pointer; color:#333}
+.log_detail_table th div{height:15px;border-radius:5px;}
+.log_detail_table th{text-align:left;line-height:22px;}
+.log_detail_table td {line-height:22px;border-top:1px solid #dbecf9;}
+.log_detail_table td div{height:15px;border-radius:5px; cursor:pointer;}
+.green_bar{ background: url(../../images/performance/green-bar.png) repeat-x;}
+.yellow_bar{ background: url(../../images/performance/yellow-bar.png) repeat-x;}
+.red_bar{ background: url(../../images/performance/red-bar.png) repeat-x;}

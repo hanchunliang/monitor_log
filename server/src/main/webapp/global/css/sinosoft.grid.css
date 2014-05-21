@@ -1,0 +1,75 @@
+.grid_box{overflow:hidden;background:url(../images/grids/grids-head.gif) repeat-x;overflow:hidden;position:relative;z-index:1}
+.grid_box table{table-layout:fixed;}
+.grid_box table td,.grid_head .gird_head_column{white-space:pre-line;word-break:break-all;overflow:hidden;vertical-align:middle;white-space:nowrap;border:#ccc 1px solid;border-width:0 1px 1px 0;}
+.grid_box .multiple,.grid_head div.multiple{width:22px;text-align:center;padding:0;cursor:default;}
+.grid_view{clear:both;position:relative;overflow:auto;}
+.grid_view table td{border-color:#ededed;line-height:26px;text-overflow:ellipsis;background:#fff;}
+.grid_view table td span{padding:0 3px;white-space:nowrap;display:block;}
+.grid_view a{color:#005590;}
+.grid_view a:hover{color:#000;text-decoration:none;}
+.grid_view a img{margin:0 3px -3px 2px;}
+.grid_view tr.odd td{background:url(../images/grids/grid_td.gif)}
+.grid_view tr.select td{background:#c8ddf1;}
+.grid_view tr.hover td{background:#E1EBF5;border-bottom-color:#b0b0b0;}
+.grid_box .grid_head_menu{display:none;width:126px;position:absolute;border:#aaa 1px solid;z-index:9}
+.grid_head_menusha{background:#000;filter:alpha(opacity=10);-moz-opacity:0.1;-khtml-opacity:0.1;opacity:0.1;position:absolute;z-index:2}
+.grid_box .grid_head_menu span{display:block;width:16px;height:16px;float:left;background:url(../images/grids/grids.gif) no-repeat;margin:5px 8px 0 4px;_margin:5px 6px 0 2px}
+.grid_box .grid_head_menu span.up{background-position:0 -70px;}
+.grid_box .grid_head_menu span.down{background-position:-16px -70px;}
+.grid_box .grid_head_menu span.veiw{background-position:-32px -70px;}
+.grid_box .grid_head_menu div{line-height:24px;height:24px;position:relative;cursor:default}
+.grid_box .grid_head_menu div.hover{border:#a9cbf5 1px solid;line-height:22px;height:22px;}
+.grid_box .grid_head_menu div.hover span{margin:4px 8px 0 3px;_margin:4px 6px 0 2px}
+.grid_box .grid_head_menu ul{background:#f1f1f1 url(../images/grids/grids-menu.gif) 24px 0 repeat-y;padding:1px;position:relative;z-index:99}
+.grid_head_menu li{height:24px;background:url(../images/grids/grids-menu.gif) 24px 0 repeat-y;}
+.grid_box .grid_head_menu li.parting{background:url(../images/grids/grids-menu-row.gif) repeat-x;padding-top:2px;}
+.grid_box li.parting b.parent{background:url(../images/grids/menu-parent.gif) no-repeat center right;width:12px;height:9px;float:right;display:block;margin:7px 0 0 0}
+.grid_box .grid_head_menu .grid_head_menu{top:0;left:126px;display:none;position:absolute;height:auto;}
+.grid_box .grid_head_menu label{height:24px;overflow:hidden;white-space:nowrap;display:block;padding-left:30px;width:90px;background:url(../images/grids/grid_checkbox.gif) no-repeat 3px -25px}
+.grid_box .grid_head_menu label.chected{background-position:3px -1px}
+.grid_head_menu .hover li{line-height:22px;}
+.grid_head_menu .hover label{background-position:2px -26px;line-height:22px;height:22px;padding-left:29px}
+.grid_head_menu .hover label.chected{background-position:2px -2px}
+.grid_box .grid_head_menu label.disabled{background-position:3px -48px;color:#555}
+.grid_head_menu .hover label.disabled{background-position:2px -49px}
+.grid_box .grid_head_menu div.hover b.parent{margin:6px -1px 0 0}
+.grid_box div.hover .grid_head_menu{display:block}
+.grid_box div.hover .grid_head_menu span{background:none}
+.grid_box .grid_head_menu label{display:block}
+.grid_box .grid_page{background:#EDF2F7}
+.grid_box .grid_page_box{height:21px;padding:4px 6px 0;border-top:#e1eaf7 1px solid}
+.grid_box .grid_page_box div,.grid_box .grid_page_box span{float:left;}
+.grid_box .prick{border-left:#b0bac9 1px solid;border-right:#e1eaf7 1px solid;height:16px;margin:0 6px;}
+.grid_box .grid_page_box input.page_nub{border:1px solid #b0bac9;background:#fff url(../images/grids/index_input_bg.png) repeat;width:22px;margin-right:2px;}
+.grid_box .grid_page_box .grid_info{float:right}
+.grid_box .grid_page_box b{background:url(../images/grids/grids.gif) no-repeat;display:block;width:16px;height:16px;cursor:pointer;margin:0 3px}
+.grid_box .grid_page_box b.grid_refresh{background-position:-48px -70px}
+.grid_box .grid_page_box b.grid_page_next{background-position:-80px -54px}
+.grid_box .grid_page_box b.grid_page_last{background-position:-64px -54px}
+.grid_box .grid_page_box b.grid_page_fist{background-position:-96px -54px;}
+.grid_box .grid_page_box b.grid_page_prev{background-position:-112px -54px;}
+.grid_box .grid_page_box b.unclick{opacity:0.40;filter:alpha(opacity=40);-moz-opacity:0.4;}
+.grid_box .grid_head_menu span input{width:14px;height:14px;margin:1px 0 0 2px;}
+.grid_box .grid_head_menu .hover .hover input{margin-left:1px}
+.grid_head .gird_head_column{float:left;border-bottom:none;height:28px;font-weight:bold;text-shadow:0 1px 0 #fff;line-height:28px;position:relative}
+.gird_head_column .grid_menu{width:14px;height:100%;position:absolute;right:0;top:0;border-left:#ccc 1px solid;cursor:default;background:url(../images/grids/grids-head-menu.gif) no-repeat center center;display:none}
+.grid_box .grid_head{height:28px;;overflow:hidden;background:#eeeff0 url(../images/grids/grids-head.gif) repeat-x;border-bottom:#ccc 1px solid;position:relative}
+.gird_head_column span{padding:0 12px 0 3px;_line-height:26px}
+/*.grid_head .hover,.grid_head_menu .hover,.grid_head .select{background:#d9e1fb url(../images/grids/grids-head-hove.gif) repeat-x 0 0}*/
+.grid_head .hover .grid_menu,.grid_head .select .grid_menu{display:block;}
+.grid_head .hover .clk,.grid_head .select .clk{background-color:#dce3fb}
+.grid_head span.up{background:url(../images/grid-up.gif) no-repeat right center}
+.grid_head span.down{background:url(../images/grid-down.gif) no-repeat right center}
+.grid_head .multiple .chex{height:28px;line-height:28px;}
+.grid_head .needle{position:absolute;width:8px;height:22px;cursor:col-resize;background:#000;filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0;left:-999px}
+.gird_head_column span.number{padding:0 3px;}
+.grid_view .loading span{color:#444;background:#fff url(../images/window/spinner.gif) no-repeat 2px center;padding-left:22px}
+.grid_view .loading{text-align:center}
+.head_box{width:9999999px;}
+.grid_head .number,.grid_view td.number{width:30px;}
+.grid_box .ruler{position:absolute;width:1px;height:999px;background:#555;top:0;left:0;}
+.grid_box .right{background:#f30}
+.grid_view table .th_rows td{line-height:0;height:0;overflow:hidden;border:none}
+.grid_box .g_indicator,.grid_box .g_pointer{position:absolute;left:-999px;top:-999px;z-index:9;border:1px solid #DDD;padding:0 4px 0 18px;height:16px;line-height:16px;background:#f4f5f6 url(../images/grids/drog_icon.gif) no-repeat;}
+.grid_box .no{background-position: 0 -64px}
+.grid_box .g_pointer{background:none;width:16px;height:16px;background:url(../images/grids/drog_icon.gif) no-repeat 0 -16px;border:none;padding:0;}

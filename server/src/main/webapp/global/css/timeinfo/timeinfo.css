@@ -1,0 +1,70 @@
+.tabs_tr1_o{background:url(../../images/timeinfo/tab_behindbg.gif) repeat-x; width:auto;}
+.tabs_l_b_o{width:50px; background:url(../../images/timeinfo/tab_behindbg.gif) repeat-x}
+.tabs_l_o{height:26px;width:9px; background:url(../../images/timeinfo/tb_selected_leftbox.gif) no-repeat}
+.tabs_t_o{height:26px;width:25px; padding:0 10px; background:url(../../images/timeinfo/tb_selected_middlebg.gif) repeat-x}
+.tabs_r_o{height:26px;width:10px; background:url(../../images/timeinfo/tb_selected_rightbox.gif) no-repeat}
+
+
+.tabs_tr1_l{background:url(../../images/timeinfo/tab_behindbg.gif) repeat-x; width:auto;}
+.tabs_l_b_l{width:65px; background:url(../../images/timeinfo/tab_behindbg.gif) repeat-x}
+.tabs_l_l_l{width:30px;}
+.tabs_l_l{height:26px;width:9px; background:url(../../images/timeinfo/tb_selected_leftbox.gif) no-repeat}
+.tabs_t_l{height:26px;width:50px; padding:0 10px; background:url(../../images/timeinfo/tb_selected_middlebg.gif) repeat-x}
+.tabs_r_l{height:26px;width:10px; background:url(../../images/timeinfo/tb_selected_rightbox.gif) no-repeat}
+
+
+
+.up,.down,.cando,.cannot{width:27px;height:27px;cursor:pointer;}
+.up{ background:url(../../images/timeinfo/icon_conf_hlt_clear.png)}
+.down{ background:url(../../images/timeinfo/icon_down_conf%20.png)}
+.cando{background:url(../../images/timeinfo/icon_up_conf.png)}
+.cannot{ background:url(../../images/timeinfo/icon_conf_hlt_cannot.png)}
+.time_info_all{padding:10px 20px;color:#666; overflow:auto}
+.time_info_all a{cursor:pointer; text-decoration:none; color:#666}
+.time_info_all a:hover{text-decoration: underline;}
+.time_info_top,.time_info_overview{width:100%;}
+.time_info_top_table,.type_list{width:100%; min-width:960px; border:1px solid #eee; text-align:center;}
+.time_info_top_table td{border-left:1px solid #ccc;}
+.time_info_head{background:url(../../images/timeinfo/confheaderbg.png) repeat-x;height:30px;font-size:16px; text-align:left;padding:2px 0px 4px 10px;}
+.time_info_title{height:22px; background:url(../../images/timeinfo/conf-bg-tile.png)}
+.time_info_text{height:44px; background:url(../../images/timeinfo/conf-bg-tile.png); font-size:18px; font-weight:bold; white-space:pre;}
+.time_info_text div{ text-align:center;}
+.time_info_overview{width:100%;text-align:left;}
+.time_info_overview table{padding:0 10px;}
+.time_info_overview_table{margin-top:20px;}
+.time_info_overview_table table{border:1px solid #eee;}
+.serious,.warning,.normal,.unknow {width:20px;height:10px;margin-right:5px;}
+.serious{ background: url(../../images/timeinfo/red-bar.gif)}
+.warning{ background:url(../../images/timeinfo/orange-bar.gif)}
+.normal{ background:url(../../images/timeinfo/green-bar.gif)}
+.unknow{ background:url(../../images/timeinfo/gray-bar.gif)}
+.mark_info{ font-weight:normal;}
+.mark_show{margin-left:20px;}
+.show_mark_time td b{padding-left:15px;}
+.mark_info div{float:left;margin: 0 10px 0 0 ;}
+.time_info_performance_table{width:100%; font-weight:bold;}
+.time_info_performance_table tr{margin-top:20px;height:30px;}
+.time_info_performance_table td{width:10%;padding-left:20px; vertical-align:middle; }
+.time_info_overview_table_head{ font-size:14px; font-weight:bold;}
+.ky,.bky,.wran,.tj,.wsj{height:15px;float:left;}
+.iky,.ibky,.iwran,.itj,.iwsj{width:11px;height:11px;border:1px solid #eee;}
+
+.bar{ margin-left:3px;height:15px;width:588px;border:1px solid #666;}
+.bar .show_bar{width:98px;height:15px;float:left; }
+.show_time li{float:left;margin-right:65px;}
+.show_bar li {float:left;}
+.bar_table{width:630px;border:1px solid #eee;}
+.show_mark li{float:left;padding-top:10px;}
+.show_mark li div{float:left;margin:0 10px;}
+.tool_bar_top{ text-align:left;}
+.column_chart{margin:20px 0;}
+.column_chart .threshold_file{float:left;margin: 0 10px 20px 0;}
+#type_list_head{font-size:16px;padding:2px 20px; text-align:left; font-weight:bold;height:25px; background:url(../../images/timeinfo/bg_tableheader.gif) repeat-x;}
+
+.red_status{width:14px;height:14px;}
+.green_status{width:14px;height:14px;}
+.yellow_status{width:14px;height:14px;}
+.red_status{ background:url(../../images/timeinfo/bussinessY2.gif) no-repeat}
+.green_status{ background:url(../../images/timeinfo/bussinessY.gif)}
+.yellow_status{ background:url(../../images/timeinfo/bussinessY3.gif)}
+

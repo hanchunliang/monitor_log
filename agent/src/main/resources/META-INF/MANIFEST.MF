@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Premain-Class: com.sinosoft.monitor.agent.JavaAgent
+Agent-Class: com.sinosoft.monitor.agent.JavaAgent
+Main-Class: com.sinosoft.monitor.agent.starter.MonitorAgentStarter
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+

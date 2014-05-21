@@ -1,0 +1,43 @@
+.p_sub_index{width:100%}
+.p_sub_table{width:100%;font-size:14px; color:#666}
+.p_sub_table_left{width:30%; text-align:left}
+.p_sub_table_right{width:70%; text-align:right}
+.p_table{width:100%;height:40px; font-size:14px; background:url(../../images/performance/sort-bg.gif);}
+.p_table .p_table_t_l{width:80%;text-align:left;padding-left:20px;}
+.p_table .p_table_t_l div{float:left;}
+.p_table .p_table_t_r{width:20%;text-align:right;padding-right:10px;}
+.p_table .p_table_t_r div{float:right;}
+.eid{background: url(../../images/tool_icons.gif) no-repeat scroll 0 -287px transparent;
+    color: #000000;
+    margin-right: 4px;
+    padding-left: 17px;
+    text-decoration: none;}
+.green{border-top-left-radius:5px;border-bottom-left-radius:5px;}
+.red{border-top-right-radius:5px;border-bottom-right-radius:5px;}
+.p_info_div{border: #EAEAEA solid 1px; }
+.p_info .p_info_table{height:35px;width:100%;border:none;background:url(../../images/performance/th_bg.png)}
+.p_info .p_info_table thead{cursor:pointer; text-align:left}
+.p_info .p_info_table_head{height:35px;color: #0D6D93;font-size:12px;}
+.p_info .p_info_table_head .head{width:10% ; }
+.p_info .p_info_table_head .head_name{width:15%; }
+.p_info .p_info_table_head .head_score{width:35s%;}
+
+.p_info .p_info_table_body{height:45px;width:100%}
+.p_info .p_info_table_td_icon{ background:url(../../images/performance/icon_available_plain.gif) no-repeat;  margin-left:40%;text-decoration:none;}
+.p_info .p_info_table_td_text{text-decoration:none;}
+.p_info_table_body_bar{border-radius: 2px;}
+.p_info .p_info_table_body_bar div{float:left;height:15px;}
+.p_info_table_body_bar{width:100%}
+.p_info_table_body_bar div{width:15px;}
+.p_info_table_body .body{width:10%; }
+.p_info_table_body .body_name{width:15%; }
+.p_info_table_body .body_score{width:35%; }
+.p_info_table_bottom{margin:8px;}
+.user_info div{float:left;margin-left:20px; color:#444; font-size:14px;}
+.user_info span{margin-left:10px;}
+.p_info_body_div{ background:url(../../images/performance/tbody_bg.jpg)repeat-x;font-size:12px;}
+.p_info_body_div table{width:100%}
+.p_info_body_div table tr{ text-align:left;}
+.p_info_table_body_bar .green{background: url(../../images/performance/green-bar.png) repeat-x;}
+.p_info_table_body_bar .yellow{background: url(../../images/performance/yellow-bar.png) repeat-x;}
+.p_info_table_body_bar .red{background: url(../../images/performance/red-bar.png) repeat-x; }

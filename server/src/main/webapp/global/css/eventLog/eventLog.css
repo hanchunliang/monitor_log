@@ -1,0 +1,12 @@
+.event_log{padding:20px; }
+.event_log a{ color:#444;text-decoration:none}
+
+.tabs{margin-top:20px;}
+.tabs_tr1{background:url(../../images/timeinfo/tab_behindbg.gif) repeat-x; width:auto;}
+.tabs_l_b{width:30px; background:url(../../images/timeinfo/tab_behindbg.gif) repeat-x}
+.tabs_l_l{width:30px;}
+.tabs_l{height:26px;width:9px; background:url(../../images/timeinfo/tb_selected_leftbox.gif) no-repeat}
+.tabs_t{height:26px;width:50px; padding:0 10px; background:url(../../images/timeinfo/tb_selected_middlebg.gif) repeat-x}
+.tabs_r{height:26px;width:10px; background:url(../../images/timeinfo/tb_selected_rightbox.gif) no-repeat}
+
+#event_log_grid{margin-top:20px;}

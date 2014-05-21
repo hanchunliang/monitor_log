@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--定时任务配置-->
+
+    <!-- 线程执行器配置，用于任务注册 -->
+    <bean id="executor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+    </bean>
+    <!-- 业务对象 -->
+
+    <!-- 调度业务 -->
+    <bean id="jobDetail" class="org.springframework.scheduling.quartz.JobDetailBean">
+        <property name="jobClass">
+            <value>com.sinosoft.one.monitor.job.CleanDataJob</value>
+        </property>
+        <property name="jobDataAsMap">
+            <map>
+                <entry key="entityManagerFactory" value-ref="entityManagerFactory"></entry>
+                <entry key="alarmRepository" value-ref="alarmRepository"></entry>
+                <entry key="exceptionInfoRepository" value-ref="exceptionInfoRepository"></entry>
+                <entry key="logDetailRepository" value-ref="logDetailRepository"></entry>
+                <entry key="methodResponseTimeRepository" value-ref="methodResponseTimeRepository"></entry>
+                <entry key="methodTraceLogRepository" value-ref="methodTraceLogRepository"></entry>
+                <entry key="requestPerMinuteRepository" value-ref="requestPerMinuteRepository"></entry>
+                <entry key="urlResponseTimeRepository" value-ref="urlResponseTimeRepository"></entry>
+                <entry key="urlVisitsStaRepository" value-ref="urlVisitsStaRepository"></entry>
+            </map>
+        </property>
+    </bean>
+
+    <!--调度触发器-->
+    <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="jobDetail" />
+        <property name="cronExpression" value="0 0 1 * * ?"/>
+    </bean>
+    <!-- 设置调度 -->
+    <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="cronTrigger" />
+            </list>
+        </property>
+        <property name="taskExecutor" ref="executor" />
+    </bean>
+</beans>

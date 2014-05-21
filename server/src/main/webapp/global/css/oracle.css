@@ -1,0 +1,58 @@
+a{ cursor:pointer; text-decoration:none; color:#000;}
+.health_list div{float:left;}
+.health_list td{padding-left:30px;}
+.main_table tr{margin-top:20px;}
+.tool_bar_top{height:auto;}
+.tool_bar_bottom{ height:25px;width:99.5%; padding-top:5px;}
+.base_info td{ border-top:1px solid #eef2ff ;width:auto;height:20px;padding:2px 5px;}
+.samll_th{ background:#edf2f7;}
+.now_status_up{float:left; background:url(../images/icon_availability_up.gif) no-repeat; width:13px;height:13px;}
+.now_status_down{float:left; background:url(../images/icon_availability_down.gif) no-repeat; width:13px;height:13px;}
+#day_available{height:300px;}
+.days_data{height:24px;}
+.seven_days,.thirty_days,.seven_days_unable,.thirty_days_unable{float:right;width:24px;height:16px;margin:5px 10px 0 0 ;}
+.seven_days{ background:url(../images/db/icon_7daysdata.gif) no-repeat}
+.seven_days_unable{ background: url(../images/db/icon_7days_disabled.gif) no-repeat;}
+.thirty_days{background:url(../images/db/icon_30daysdata.gif) no-repeat}
+.thirty_days_unable{ background:url(../images/db/icon_30days_disabled.gif) no-repeat;}
+
+.show_table_space_a{color:#2F2E30;float:right;margin-right:10px;}
+.hit_rate{width:33%;float:left;}
+.hit_rate div{float:left;}
+#last_onehour{height:200px;}
+#user_last_onehour{height:200px;}
+.last_onehour_table{ width:100%;}
+.last_onehour_table th,.sub_title{  height:25px; text-align:left; padding-left:10px;}
+.last_onehour_table th{ background:#edf2f7}
+.sub_title{color: #333333;font-weight: bold; padding:5px 0 0 10px;height:20px;background:url(../images/bg-tableheader.gif) repeat-x; }
+.last_onehour_table td{height:30px; border-top:1px solid #dbecf9; padding-left:10px; text-align:left;}
+.warn_set{ color:#666; text-decoration:underline;height:13px;float:right;padding:0 15px; background:url(../images/db/icon_associateaction.gif) no-repeat;}
+.warn_set2{height:13px;background:url(../images/db/icon_associateaction.gif) no-repeat;}
+#use_cpu,#use_memory,#use_disk{ width:33%; float:left; height:250px;}
+.bg_bar{ height:11px;background:url(../images/db/green-bar.png) repeat-x; border:1px solid #666;}
+.red_bar{ height:11px;background:url(../images/db/red-bar.png) repeat-x; float:right;}
+
+.tool_bar_top span{ margin: 0 50px 0 10px;}
+.health_good{padding-left:20px; height:14px;background: url(../images/db/icon_health_good.gif) no-repeat}
+.health_warn{padding-left:20px;  height:14px; background:url(../images/db/icon_health_warn.gif) no-repeat}
+.health_bad{padding-left:20px;  height:14px; background:url(../images/db/icon_health_bad.gif) no-repeat}
+.health_unknown{padding-left:20px;  height:14px; background:url(../images/db/icon_health_unknown.gif) no-repeat}
+.threshold_icon{height:13px;  background:url(../images/db/icon_unknown_status.gif) no-repeat;}
+
+
+
+.hit_rate_head{text-align:center;height:35px; padding-top:15px;width:60%;background:#468ed5;margin:20px 0 0 20%}
+.hit_rate_c_l{width:10%;border-right:1px solid #000;height:300px;}
+.hit_rate_c{width:75%;border-top:1px solid #000; text-align:center;}
+.hit_rate .hit_rate_c_t{background:#000;height:225px;width:60%; margin:20% auto 0;text-align:center;float:none}
+.hit_rate .hit_rate_c_m{width:80%;height:80%;margin:10% auto 2%;background:url(../images/db/hit.png);float:none}
+.hit_rate_c_m_m{width:100%;height:30%; background: url(../images/db/hit2.png);}
+.hit_rate .hit_rate_c_m_b{color:#0F0;float:none;text-align:center}
+.hit_rate_c_r{width:10%;border-left:1px solid #000;height:300px;}
+.hit_rate_b_l{width:10%}
+.hit_rate_b{width:75%;border-top:1px solid #000;}
+.hit_rate_b_r{width:10%}
+
+.buttom_mark div{ float:left;margin-left:10px;}
+.selected_text{ background:#E3F300;}
+.oracle_detail{ background:url(../images/db/AtaGlance-icon.gif) right no-repeat;width:200px;}
